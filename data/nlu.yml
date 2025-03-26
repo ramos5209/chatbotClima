@@ -34,11 +34,9 @@ nlu:
 
 - intent: informa_localizacao
   examples: |
-    - [London] {city}
+    - [London](city)
+    - [Curitiba](city)
+    - [Paris](city)
+    - [Moscou](city)
+    - [Brasilia](city)
 
-- intent: desafia_bot
-  examples: |
-    - O que é voce
-    - Quem voce pensa que é
-    - Voce parece doido
-    - Voce parece estranho

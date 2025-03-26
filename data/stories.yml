@@ -13,6 +13,5 @@ stories:
   - action: utter_pergunta_clima
   - intent: informa_localizacao
     entities:
-      - city: 
+      - city:  
   - action: action_informa_clima
-

@@ -2,10 +2,9 @@ version: "3.1"
 
 intents:
   - saudacao
-  - despidida
+  - despedida
   - pergunta_clima
   - informa_localizacao
-  - desafia_bot
 
 
 responses:
@@ -18,8 +17,7 @@ responses:
   utter_pergunta_clima:
   - text: "Claro, poderia me informar a cidade?"
 
-  utter_soubot:
-  - text: "Sou apenas um chatbot..."
+
 
 actions:
   - action_informa_clima
