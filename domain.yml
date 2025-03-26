@@ -1,0 +1,29 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despidida
+  - pergunta_clima
+  - informa_localizacao
+  - desafia_bot
+
+
+responses:
+  utter_saudacao:
+  - text: "Ola! No que posso ajudar?"
+
+  utter_despedida:
+  - text: "Até logo!"
+
+  utter_pergunta_clima:
+  - text: "Claro, poderia me informar a cidade?"
+
+  utter_soubot:
+  - text: "Sou apenas um chatbot..."
+
+actions:
+  - action_informa_clima
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
